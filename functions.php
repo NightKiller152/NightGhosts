@@ -1,8 +1,8 @@
 <?php
   $dbhost = 'localhost';
   $dbname = 'nightghosts';
-  $dbuser = 'nightspirit';
-  $dbpass = 'admin';
+  $dbuser = 'ваш_логин MySQL';
+  $dbpass = 'ваш_пароль MySQL';
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die("Fatal Error");
