@@ -1,0 +1,97 @@
+
+@font-face { font-family: "Spooky"; 
+                 src: url("spook.ttf"); }
+
+@font-face { font-family: "Ns"; 
+                 src: url("ns.otf"); }
+
+* {
+  font-family:Ns,sans-serif;
+  font-size  :25pt;
+}
+
+body {
+  width     :720px;
+  margin    :20px auto;
+  background:#f8f8f8;
+  border    :1px solid #888;
+}
+
+html {
+  background:#fff
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+}
+
+
+#txt {
+  font-size: 30pt;
+}
+
+.username {
+  text-align :center;
+  background :black;
+  color      :#CA0000;
+  font-family:Ns;
+  font-size  :30pt;
+  padding    :4px;
+}
+
+.info {
+  font-style :italic;
+  margin     :40px 0px;
+  text-align :center;
+}
+
+.center {
+  text-align:center;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+#logo {
+  font-family:Spooky;
+  font-weight:bold;
+  font-style :normal;
+  font-size  :120px;
+  color      :#CA0000;
+  background: white;
+  }
+
+#ghost {
+  position          :relative;
+  border            :0px;
+  margin-left       :-6px;
+  margin-right      :0px;
+  top               :10px;
+  -moz-box-shadow   :0px 0px 0px;
+  -webkit-box-shadow:0px 0px 0px;
+  box-shadow        :0px 0px 0px;
+  width: 70px;
+  height: 70px;
+}
+
+#used {
+  margin-top:50px;
+}
